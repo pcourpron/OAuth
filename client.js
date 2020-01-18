@@ -38,7 +38,7 @@ const sendAPIRequest = async () => {
       }
     })
 
-    console.log(auth)
+    console.log(response)
   } catch (error) {
 
     console.log(`Error: ${error.message}`)
